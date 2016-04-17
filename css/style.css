@@ -21,4 +21,13 @@ body {
 body h1 {
   color: #FF0000; }
 
+.member_hover img:last-child {
+  display: none; }
+
+.member_hover:hover img:first-child {
+  display: none; }
+
+.member_hover:hover img:last-child {
+  display: inline-block; }
+
 /*# sourceMappingURL=style.css.map */

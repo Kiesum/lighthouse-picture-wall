@@ -29,3 +29,7 @@ body {
     color: $primaryColor;
   }
 }
+
+.member_hover img:last-child{display:none}
+.member_hover:hover img:first-child{display:none}
+.member_hover:hover img:last-child{display:inline-block}
