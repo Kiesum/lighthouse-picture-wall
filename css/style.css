@@ -8,6 +8,8 @@
     -webkit-transition: transform 0.5s ease-in-out; }
   #team-members .member:hover {
     -webkit-transform: scale(1.4); }
+  #team-members .member:hover:nth-child(2n) {
+    -webkit-transform: rotate(180deg); }
 
 #team-members .member img {
   width: 200px;

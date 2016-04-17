@@ -12,6 +12,11 @@
       & .member:hover {
           -webkit-transform: scale(1.4);
       }
+
+      & .member:hover:nth-child(2n) {
+          -webkit-transform: rotate(180deg);
+      }
+
 }
 
 #team-members .member {
